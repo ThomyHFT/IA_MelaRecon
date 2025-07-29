@@ -1,0 +1,52 @@
+Epoch 1/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8537 - loss: 0.3943/Users/thomasferradatorres/.pyenv/versions/3.10.13/lib/python3.10/site-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+
+Epoch 1: val_accuracy improved from -inf to 0.88911, saving model to exported_models/best_model.h5
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+313/313 ━━━━━━━━━━━━━━━━━━━━ 766s 2s/step - accuracy: 0.8538 - loss: 0.3942 - val_accuracy: 0.8891 - val_loss: 0.3490
+Epoch 2/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8875 - loss: 0.3570   
+Epoch 2: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 807s 3s/step - accuracy: 0.8875 - loss: 0.3570 - val_accuracy: 0.8891 - val_loss: 0.3483
+Epoch 3/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8888 - loss: 0.3537   
+Epoch 3: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 775s 2s/step - accuracy: 0.8888 - loss: 0.3537 - val_accuracy: 0.8891 - val_loss: 0.3498
+Epoch 4/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8866 - loss: 0.3608   
+Epoch 4: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 782s 2s/step - accuracy: 0.8866 - loss: 0.3608 - val_accuracy: 0.8891 - val_loss: 0.3503
+Epoch 5/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8911 - loss: 0.3508   
+Epoch 5: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 759s 2s/step - accuracy: 0.8911 - loss: 0.3508 - val_accuracy: 0.8891 - val_loss: 0.3482
+Epoch 6/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8912 - loss: 0.3512   
+Epoch 6: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 774s 2s/step - accuracy: 0.8912 - loss: 0.3512 - val_accuracy: 0.8891 - val_loss: 0.3496
+Epoch 7/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8859 - loss: 0.3603   
+Epoch 7: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 729s 2s/step - accuracy: 0.8859 - loss: 0.3603 - val_accuracy: 0.8891 - val_loss: 0.3476
+Epoch 8/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8900 - loss: 0.3501   
+Epoch 8: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 743s 2s/step - accuracy: 0.8900 - loss: 0.3501 - val_accuracy: 0.8891 - val_loss: 0.3488
+Epoch 9/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8896 - loss: 0.3524   
+Epoch 9: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 737s 2s/step - accuracy: 0.8896 - loss: 0.3524 - val_accuracy: 0.8891 - val_loss: 0.3485
+Epoch 10/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8856 - loss: 0.3599   
+Epoch 10: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 735s 2s/step - accuracy: 0.8856 - loss: 0.3599 - val_accuracy: 0.8891 - val_loss: 0.3491
+Epoch 11/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8905 - loss: 0.3508   
+Epoch 11: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 752s 2s/step - accuracy: 0.8905 - loss: 0.3508 - val_accuracy: 0.8891 - val_loss: 0.3479
+Epoch 12/20
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.8898 - loss: 0.3495   
+Epoch 12: val_accuracy did not improve from 0.88911
+313/313 ━━━━━━━━━━━━━━━━━━━━ 748s 2s/step - accuracy: 0.8898 - loss: 0.3495 - val_accuracy: 0.8891 - val_loss: 0.3481
+(.venv) thomasferradatorres@Thomass-MacBook-Pro IA % 
